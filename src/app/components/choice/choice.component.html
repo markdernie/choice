@@ -1,0 +1,13 @@
+
+<img class="logo" src="./scimitar.svg" alt="scimitar" />
+<ng-template #content>
+  <app-content/>
+</ng-template>
+<main id="content">
+ 
+    <ng-container #container></ng-container>
+    <section class="toolbar">
+      <button (click)="createComponent()" class="create">Create Component</button>
+      <button (click)="destroyComponent()" class="destroy">Destroy Component</button>
+    </section>
+  </main>
